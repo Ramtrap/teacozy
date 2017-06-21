@@ -9,13 +9,33 @@
 header {
   display: flex;
   position: fixed;
+  flex-wrap: wrap;
   height: 69px;
   width: 100%;
   border-bottom: 1px solid seashell;
   align-items: center;
+  z-index: 1;
 }
 
 .logo {
-  height: 50px;
+  display: flex;
   padding-left: 10px;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.logo img {
+  height: 50px;
+}
+
+.menu {
+  padding-right: 10px;
+  text-align: right;
+  flex-grow: 1;
+}
+
+.menu span {
+  display: inline-block;
+  justify-content: space-around;
+  padding: 20px 10px;
 }
