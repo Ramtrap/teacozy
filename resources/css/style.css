@@ -5,3 +5,17 @@
   background-color: black;
   opacity: 0.9;
 }
+
+header {
+  display: flex;
+  position: fixed;
+  height: 69px;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+  align-items: center;
+}
+
+.logo {
+  height: 50px;
+  padding-left: 10px;
+}
