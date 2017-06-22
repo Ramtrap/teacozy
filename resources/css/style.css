@@ -17,7 +17,7 @@ header {
   z-index: 1;
 }
 
-.header-container {
+.flex-container {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
