@@ -1,21 +1,17 @@
 body {
-  margin: 0;
   font-family: Helvetica;
   font-size: 22px;
   color: seashell;
   background-color: black;
   opacity: 0.9;
-  text-align: center;
 }
 
 header {
   position: fixed;
-  width: 100%;
   height: 69px;
-  background-color: black;
+  width: 100%;
+  opacity: 0.9;
   border-bottom: 1px solid seashell;
-  align-items: center;
-  z-index: 1;
 }
 
 .flex-container {
@@ -24,58 +20,19 @@ header {
   flex-wrap: wrap;
 }
 
-.logo {
+header img {
   height: 50px;
   padding-left: 10px;
 }
 
 nav {
-  text-align: right;
   flex-grow: 1;
+  text-align: right;
+  padding-right: 20px;
 }
 
-.main {
-  opacity: 0.9;
-  margin: auto;
-  width: 1200px;
-  padding-top: 69px;
-}
-
-#mission {
-  background-image: url('../images/img-mission-background.jpg');
-  height: 700px;
-  padding-top: 70px;
-}
-
-.content {
-  width: 100%;
-  background-color: black;
-  align-items: center;
-}
-
-h2, h3, h4 {
-  padding: 10px;
-  margin: 0;
-}
-
-nav span {
-  padding: 20px 10px;
-}
-
-.contact {
-  height: 200px;
-}
-
-h5 a {
-  text-decoration: none;
-}
-
-a {
-  text-decoration: underline;
+nav span a {
+  margin: 20px 10px;
   color: seashell;
-}
-
-footer {
-  text-align: left;
-  padding-left: 20px;
+  text-decoration: underline;
 }
